@@ -1,0 +1,16 @@
+.custom-button {
+    border-radius: 10px;
+    background-color: lightgray;
+    cursor: pointer;
+    border: none;
+    height:25px;
+    width:70px;
+    text-align: center;
+    font-size: 9px;
+    font-weight:900px; 
+    
+  }
+  
+  .custom-button.active {
+    background-color: rgb(242, 242, 133);
+  }

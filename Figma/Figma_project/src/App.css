@@ -1,0 +1,69 @@
+
+.input {
+   
+   
+    margin:2px 15px 1px;
+    text-align: right;
+    
+}
+
+
+.input ::placeholder{
+  color:black;
+  background-color: lightgray;
+  height: 100vh;
+  padding:10px;
+  text-align: right;
+  
+}
+
+.input2 {
+   
+   
+  margin:2px 15px 1px;
+  text-align: right;
+  
+}
+
+.input2 ::placeholder{
+  color:black;
+  background-color: lightgray;
+  height: 100vh;
+  padding:10px;
+  text-align: right;
+
+}
+
+
+@media (max-width: 768px) {
+
+  .inner-box {
+    width: 90vw;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .container {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .container {
+    max-width: 900px;
+  }}
+
+  @media screen and (min-width: 1200px) {
+    .content {
+      width: 70%;
+    }
+  
+    .sidebar {
+      width: 20%;
+    }
+  
+    .footer {
+      clear: both;
+    }
+  }

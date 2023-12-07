@@ -1,0 +1,16 @@
+.custom-button3 {
+  border-radius: 10px;
+  background-color: lightgray;
+  cursor: pointer;
+  border: none;
+  height:25px;
+  width:70px;
+  text-align: center;
+  font-size: 9px;
+  fontWeight:900px; 
+  gap:50px
+  }
+  
+  .custom-button3.active {
+    background-color: yellow;
+  }

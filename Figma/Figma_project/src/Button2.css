@@ -1,0 +1,17 @@
+.custom-button {
+    border-radius: 10px;
+    background-color: lightgray;
+    margin: 5px;
+    padding: 5px;
+    cursor: pointer;
+    border: none;
+    height:25px;
+    width:90px;
+    text-align: center;
+    font-size: 9px;
+    font-weight:500; 
+  }
+  
+  .custom-button.active {
+    background-color: yellow;
+  }

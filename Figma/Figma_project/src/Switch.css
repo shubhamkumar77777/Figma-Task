@@ -1,0 +1,33 @@
+.switch-container {
+    width: 19px;
+    height: 10px;
+    background-color: rgb(255 180 17);
+    border-radius: 15px;
+    position: relative;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-left:10px;
+    margin-top:3px;
+    padding-left: 1px;
+  } 
+  
+  .toggle-circle {
+    width: 9px;
+    height: 9px;
+    background-color: rgb(255, 252, 252);
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translate(0%, -50%);
+    transition: transform 0.3s;
+    padding:4px
+  }
+  
+  .switch-container.on {
+    background-color: rgb(170, 170, 170); 
+  }
+  
+  .switch-container.on .toggle-circle {
+    transform: translate(100%, -50%);
+  }
+  
